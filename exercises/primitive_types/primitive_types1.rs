@@ -19,4 +19,7 @@ fn main() {
     if is_evening {
         println!("Good evening!");
     }
+    if !is_evening {
+        println!("Good evening!");
+    }
 }

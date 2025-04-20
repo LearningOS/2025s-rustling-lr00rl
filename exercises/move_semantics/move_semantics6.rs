@@ -15,8 +15,9 @@ fn main() {
 }
 
 // Should not take ownership
-fn get_char(data: String) -> char {
-    data.chars().last().unwrap()
+fn get_char(data: String){
+    data.chars().last().unwrap();
+    println!("{}", data);
 }
 
 // Should take ownership

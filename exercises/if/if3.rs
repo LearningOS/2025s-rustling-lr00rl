@@ -4,6 +4,8 @@
 
 
 pub fn animal_habitat(animal: &str) -> &'static str {
+    // dose this is like the Python comprehensions
+    // you can directly use if in expr, as it can auto return the results
     let identifier = if animal == "crab" {
         1
     } else if animal == "gopher" {
